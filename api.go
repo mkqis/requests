@@ -1,8 +1,8 @@
 package requests
 
 import (
-	"github.com/wangluozhe/requests/models"
-	"github.com/wangluozhe/requests/url"
+	"github.com/ynetpkg/requests/models"
+	"github.com/ynetpkg/requests/url"
 	"net/http"
 )
 
