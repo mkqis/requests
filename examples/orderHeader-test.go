@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	http "github.com/wangluozhe/chttp"
-	"github.com/wangluozhe/requests"
-	"github.com/wangluozhe/requests/url"
+	http "github.com/ynetpkg/chttp"
+	"github.com/ynetpkg/requests"
+	"github.com/ynetpkg/requests/url"
 )
 
 func main() {

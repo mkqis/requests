@@ -1,4 +1,4 @@
-module github.com/wangluozhe/requests
+module github.com/ynetpkg/requests
 
 go 1.20
 
@@ -7,7 +7,7 @@ require (
 	github.com/bitly/go-simplejson v0.5.0
 	github.com/google/uuid v1.3.0
 	github.com/refraction-networking/utls v1.6.0
-	github.com/wangluozhe/chttp v0.0.4
+	github.com/ynetpkg/chttp v0.0.4
 	golang.org/x/crypto v0.17.0
 	golang.org/x/net v0.17.0
 )
