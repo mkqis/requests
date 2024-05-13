@@ -48,7 +48,7 @@ func StringToSpec(ja3 string, userAgent string, tlsExtensions *TLSExtensions, fo
 			randJa3 += e
 			randJa3 += "-"
 		}
-		if 1 == rand.Intn(100)%1 {
+		if 1 == rand.Intn(100)%2 {
 			randJa3 += "21"
 		} else {
 			randJa3 = randJa3[:len(randJa3)-1]
