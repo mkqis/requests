@@ -28,7 +28,7 @@ github.com/refraction-networking/utls v1.6.0 h1:X5vQMqVx7dY7ehxxqkFER/W6DSjy8TMq
 github.com/refraction-networking/utls v1.6.0/go.mod h1:kHJ6R9DFFA0WsRgBM35iiDku4O7AqPR6y79iuzW7b10=
 github.com/rogpeppe/go-internal v1.9.0 h1:73kH8U+JUqXU8lRuOHeVHaa/SZPifC7BkcraZVejAe8=
 github.com/rogpeppe/go-internal v1.9.0/go.mod h1:WtVeX8xhTBvf0smdhujwtBcq4Qrzq/fJaraNFVN+nFs=
-github.com/ynetpkg/chttp v0.0.4 h1:dYLcpq7XX99kFWPpzyl/TW2NYbO0YerNSflqHtUm1AU=
+github.com/ynetpkg/chttp v0.0.4 h1:ZByKqa/ShRJmkfkJ8lcUS0JG9/Vt8n04mdOLrx4ram8=
 github.com/ynetpkg/chttp v0.0.4/go.mod h1:XMpO86V8PsNkRBRFgv7qfsMyUUOA0NPyKLSzf0n1QfI=
 golang.org/x/crypto v0.17.0 h1:r8bRNjWL3GshPW3gkd+RpvzWrZAwPS49OmTGZ/uhM4k=
 golang.org/x/crypto v0.17.0/go.mod h1:gCAAfMLgwOJRpTjQ2zCCt2OcSfYMTeZVSRtQlPC7Nq4=
