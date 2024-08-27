@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
+	http "github.com/mkqis/chttp"
+	http2 "github.com/mkqis/chttp/http2"
 	utls "github.com/refraction-networking/utls"
-	http "github.com/ynetpkg/chttp"
-	http2 "github.com/ynetpkg/chttp/http2"
 	"golang.org/x/net/proxy"
 )
 

@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	http "github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/requests"
-	"github.com/ynetpkg/requests/transport"
-	"github.com/ynetpkg/requests/url"
+	http "github.com/mkqis/chttp"
+	"github.com/mkqis/requests"
+	"github.com/mkqis/requests/transport"
+	"github.com/mkqis/requests/url"
 )
 
 func main() {

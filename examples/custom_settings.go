@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	http "github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/requests/transport"
+	http "github.com/mkqis/chttp"
+	"github.com/mkqis/requests/transport"
 	"io"
 	"log"
 	"strings"

@@ -1,9 +1,9 @@
 package models
 
 import (
-	"github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/chttp/cookiejar"
-	"github.com/ynetpkg/requests/url"
+	"github.com/mkqis/chttp"
+	"github.com/mkqis/chttp/cookiejar"
+	"github.com/mkqis/requests/url"
 )
 
 type Request struct {

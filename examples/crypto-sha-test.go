@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ynetpkg/requests/utils"
+	"github.com/mkqis/requests/utils"
 )
 
 func main() {

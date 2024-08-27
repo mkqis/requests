@@ -1,9 +1,9 @@
 package transport
 
 import (
+	http "github.com/mkqis/chttp"
+	"github.com/mkqis/chttp/http2"
 	utls "github.com/refraction-networking/utls"
-	http "github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/chttp/http2"
 
 	"time"
 

@@ -1,5 +1,5 @@
 # requests
-[![Gitee link address](https://img.shields.io/badge/gitee-reference-red?logo=gitee&logoColor=red&labelColor=white)](https://gitee.com/leegene/requests)[![Github link address](https://img.shields.io/badge/github-reference-blue?logo=github&logoColor=black&labelColor=white&color=black)](https://github.com/ynetpkg/requests)[![Go Version](https://img.shields.io/badge/Go%20Version-1.20-blue?logo=go&logoColor=white&labelColor=gray)]()[![Release Version](https://img.shields.io/badge/release-v1.2.4-blue)]()[![go documentation](https://img.shields.io/badge/go-documentation-blue)](https://pkg.go.dev/github.com/ynetpkg/requests)[![license GPL-3.0](https://img.shields.io/badge/license-GPL3.0-orange)](https://github.com/ynetpkg/requests/blob/main/LICENSE)
+[![Gitee link address](https://img.shields.io/badge/gitee-reference-red?logo=gitee&logoColor=red&labelColor=white)](https://gitee.com/leegene/requests)[![Github link address](https://img.shields.io/badge/github-reference-blue?logo=github&logoColor=black&labelColor=white&color=black)](https://github.com/mkqis/requests)[![Go Version](https://img.shields.io/badge/Go%20Version-1.20-blue?logo=go&logoColor=white&labelColor=gray)]()[![Release Version](https://img.shields.io/badge/release-v1.2.4-blue)]()[![go documentation](https://img.shields.io/badge/go-documentation-blue)](https://pkg.go.dev/github.com/mkqis/requests)[![license GPL-3.0](https://img.shields.io/badge/license-GPL3.0-orange)](https://github.com/mkqis/requests/blob/main/LICENSE)
 
 requests支持以下新特性：
 
@@ -20,7 +20,7 @@ requests支持以下新特性：
 ## 下载requests库
 
 ```bash
-go get github.com/ynetpkg/requests
+go get github.com/mkqis/requests
 ```
 
 
@@ -28,7 +28,7 @@ go get github.com/ynetpkg/requests
 ## 下载指定版
 
 ```bash
-go get github.com/ynetpkg/requests@v1.2.4
+go get github.com/mkqis/requests@v1.2.4
 ```
 
 
@@ -54,8 +54,8 @@ go get github.com/ynetpkg/requests@v1.2.4
 
 ```go
 import (
-    "github.com/ynetpkg/requests"
-    "github.com/ynetpkg/requests/url"
+    "github.com/mkqis/requests"
+    "github.com/mkqis/requests/url"
 )
 ```
 
@@ -200,7 +200,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ynetpkg/requests"
+	"github.com/mkqis/requests"
 )
 
 func main() {
@@ -234,7 +234,7 @@ Requests 会自动为你解码 `gzip` 和 `deflate` 以及`br`传输编码的响
 ```go
 package main
 
-import "github.com/ynetpkg/requests"
+import "github.com/mkqis/requests"
 
 func main(){
     r, err := requests.Get("图片URL", nil)
@@ -260,7 +260,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/ynetpkg/requests"
+	"github.com/mkqis/requests"
 )
 
 func main(){
@@ -371,7 +371,7 @@ r, err := requests.Get(rawurl, req)
 package main
 
 import (
-	"github.com/ynetpkg/requests/url"
+	"github.com/mkqis/requests/url"
 )
 
 func main(){
@@ -412,7 +412,7 @@ func main(){
 package main
 
 import (
-	"github.com/ynetpkg/requests/url"
+	"github.com/mkqis/requests/url"
 )
 
 func main(){
@@ -544,8 +544,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/ynetpkg/requests"
-	"github.com/ynetpkg/requests/url"
+	"github.com/mkqis/requests"
+	"github.com/mkqis/requests/url"
 )
 
 func main() {
@@ -654,8 +654,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/ynetpkg/requests"
-	"github.com/ynetpkg/requests/url"
+	"github.com/mkqis/requests"
+	"github.com/mkqis/requests/url"
 )
 
 func main() {
@@ -787,8 +787,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/ynetpkg/requests"
-	"github.com/ynetpkg/requests/url"
+	"github.com/mkqis/requests"
+	"github.com/mkqis/requests/url"
 )
 
 func main() {
@@ -913,7 +913,7 @@ panic: runtime error: invalid memory address or nil pointer dereference
 
 goroutine 1 [running]:
 main.main()
-	D:/Go/github.com/ynetpkg/requests/examples/test.go:27 +0xc0
+	D:/Go/github.com/mkqis/requests/examples/test.go:27 +0xc0
 ```
 
 注意

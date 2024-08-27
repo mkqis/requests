@@ -1,7 +1,7 @@
 package transport
 
 import (
-	"github.com/ynetpkg/chttp/http2"
+	"github.com/mkqis/chttp/http2"
 )
 
 var settings = map[string]http2.SettingID{

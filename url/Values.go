@@ -1,7 +1,7 @@
 package url
 
 import (
-	"github.com/ynetpkg/requests/utils"
+	"github.com/mkqis/requests/utils"
 	"strconv"
 	"strings"
 	"sync"

@@ -2,8 +2,8 @@ package url
 
 import (
 	"errors"
-	http "github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/chttp/cookiejar"
+	http "github.com/mkqis/chttp"
+	"github.com/mkqis/chttp/cookiejar"
 	"net/url"
 	"strconv"
 	"strings"

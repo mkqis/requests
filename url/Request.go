@@ -1,10 +1,10 @@
 package url
 
 import (
-	"github.com/ynetpkg/chttp"
-	"github.com/ynetpkg/chttp/cookiejar"
-	"github.com/ynetpkg/chttp/http2"
-	ja3 "github.com/ynetpkg/requests/transport"
+	"github.com/mkqis/chttp"
+	"github.com/mkqis/chttp/cookiejar"
+	"github.com/mkqis/chttp/http2"
+	ja3 "github.com/mkqis/requests/transport"
 	"time"
 )
 

@@ -2,7 +2,7 @@ package url
 
 import (
 	"errors"
-	http "github.com/ynetpkg/chttp"
+	http "github.com/mkqis/chttp"
 	"strconv"
 	"strings"
 )
